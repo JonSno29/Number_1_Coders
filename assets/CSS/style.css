@@ -1,0 +1,15 @@
+body{
+    background-color: darkslategrey;
+}
+.code-logo{ 
+   text-align: center;
+   background-color: rgb(23, 24, 16);
+    }
+
+    .search{
+        text-align: center;
+    }
+
+    .button{
+        text-align: center;
+    }
