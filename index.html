@@ -37,6 +37,46 @@
      <script type="text/javascript" src="assets\JS\script.js"></script>
      <script async src="https://cse.google.com/cse.js?cx=66f7a0310183d4210">
     </script>
+
+    <!-- Modal -->
+    <div class="header">
+      <div id="modal1" class="modal">
+          <div class="modal-background"></div>
+              <div class="modal-content">
+                  <p class="image is-1by1">
+                      <img src=
+                          "/assets/images/NOWCODIO copy.png"
+                          alt="CODIO logo, green and black in color with slogan '//a job search for coders'">
+                  </p>
+              </div>
+              <button class="modal-close is-large"
+                  aria-label="close">
+          </button>
+      </div>
+      <button onclick="openModal();"
+              class="button is-primary">
+         WELCOME
+      </button>
+  </div>
+
+  <script>
+      // JavaScript code to open and close the modal
+       // Function to open the modal
+      function openModal() {
+      // Add is-active class on the modal
+          document.getElementById("modal1")
+              .classList.add("is-active");
+           }
+       // Add event listeners to close the modal
+      // whenever user click OUTSIDE modal it closes
+      document.querySelectorAll('.modal-background, .modal-close,.modal-card-head .delete, .modal-card-foot .button'
+                ).forEach(($el) => {
+          const $modal = $el.closest('.modal');
+          $el.addEventListener('click', () => {
+          $modal.classList.remove("is-active");
+          });
+      });
+  </script>
     
 </body>
 
