@@ -1,11 +1,12 @@
-body {
-    background-color: rgb(179, 204, 167);
 
-}
+body{
+    background-image: url(/assets/images/image.png);
+    background-size: cover;
+    }
 
 .code-logo{ 
    text-align: center;
-   background-color: rgb(23, 24, 16);
+   
     }
 
     .search{
@@ -16,7 +17,11 @@ body {
         text-align: center;
     }
 
+   .navbar{
+    background-color: rgb(114, 173, 114);
+   }
 
+<<<<<<< HEAD
     img {
         /* size: 10px; */
         height: auto;
@@ -54,3 +59,19 @@ body {
             color: rgba(0,0,0,.7);
         }
         
+=======
+  .hero-text {
+    text-align: left;
+    position: relative ;
+    margin-top: 400px;
+    margin-left: 500px;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(1, 0, 0);
+    font-family: fantasy;
+    font-size: 46px;
+    text-decoration: underline;
+  }
+  
+>>>>>>> ec2fc33bba6afc5b1a745b77ec7873e93b034a69
