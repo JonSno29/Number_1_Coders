@@ -53,4 +53,8 @@ body {
             border-color: transparent;
             color: rgba(0,0,0,.7);
         }
+
+        .navbar-link.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover {
+            background-color: #fafafa;
+            color: #fff;
         
