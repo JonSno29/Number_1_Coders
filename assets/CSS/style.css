@@ -1,29 +1,28 @@
-
-body{
+body {
     background-image: url(/assets/images/image.png);
     background-size: cover;
-    }
+}
 
-.code-logo{ 
-   text-align: center;
-   
-    }
+.code-logo {
+    text-align: center;
 
-    .search{
-        text-align: center;
-    }
+}
 
-    .button{
-        text-align: center;
-    }
+.search {
+    text-align: center;
+}
 
-   .navbar{
+.button {
+    text-align: center;
+}
+
+.navbar {
     background-color: rgb(114, 173, 114);
-   }
+}
 
-  .hero-text {
+.hero-text {
     text-align: left;
-    position: relative ;
+    position: relative;
     margin-top: 400px;
     margin-left: 500px;
     top: 70%;
@@ -33,5 +32,4 @@ body{
     font-family: fantasy;
     font-size: 46px;
     text-decoration: underline;
-  }
-  
+}
