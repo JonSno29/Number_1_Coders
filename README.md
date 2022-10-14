@@ -107,4 +107,5 @@ Use the "scout rule" to help others.
 
 ## CONTACT:
 
+Each member adds contact here
 

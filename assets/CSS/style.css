@@ -1,7 +1,9 @@
+
 body{
     background-image: url(/assets/images/image.png);
     background-size: cover;
-}
+    }
+
 .code-logo{ 
    text-align: center;
    
