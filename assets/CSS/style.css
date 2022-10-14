@@ -1,11 +1,12 @@
-body {
-    background-color: rgb(179, 204, 167);
 
-}
+body{
+    background-image: url(/assets/images/image.png);
+    background-size: cover;
+    }
 
 .code-logo{ 
    text-align: center;
-   background-color: rgb(23, 24, 16);
+   
     }
 
     .search{
@@ -16,41 +17,21 @@ body {
         text-align: center;
     }
 
+   .navbar{
+    background-color: rgb(114, 173, 114);
+   }
 
-    img {
-        /* size: 10px; */
-        height: auto;
-        max-width: 100%;
-        width: 71px;
-    }
-
-    .button.is-primary {
-            background-color: #f5f5f5;
-            border-color: transparent;
-            color: black;
-        }
-        
-        
- .gsc-control-cse.gsc-control-cse-en {
-            display: flex;
-            margin-left: 213px;
-            margin-top: 55px;
-            boder: 10px;
-            /* border: solid; */
-            border-block: -508px;
-            width: 40%;
-            flex-direction: column;
-            align-content: center;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .button.is-primary:hover {
-            background-color: #f5f5f5;
-            border-color: transparent;
-            color: #fff; {
-            background-color: #eee;
-            border-color: transparent;
-            color: rgba(0,0,0,.7);
-        }
-        
+  .hero-text {
+    text-align: left;
+    position: relative ;
+    margin-top: 400px;
+    margin-left: 500px;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(1, 0, 0);
+    font-family: fantasy;
+    font-size: 46px;
+    text-decoration: underline;
+  }
+  
