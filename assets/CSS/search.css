@@ -1,11 +1,12 @@
 body {
-    background-color: rgb(179, 204, 167);
-
+    background-color:  rgb(114, 173, 114);
 }
+
+
 
 .code-logo {
     text-align: center;
-    background-color: rgb(23, 24, 16);
+    background-color: rgb(0, 0, 0);
 }
 
 .search {
@@ -46,10 +47,59 @@ img {
 }
 
 .button.is-primary:hover {
-    background-color: #f5f5f5;
+    background-color: #ffffff;
     border-color: transparent;
-    color: #fff;
+    color: rgb(0, 0, 0);
     background-color: #eee;
     border-color: transparent;
     color: rgba(0, 0, 0, .7);
 }
+
+.codiologo2 {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    margin-top: 256px;
+    margin-left: 135px;
+    border-radius: 5.0rem;
+}
+
+.footer-text {
+    position: absolute;
+    margin-left: 71px;
+    margin-top: 415px;
+    color: white;
+}
+
+footer {
+    width: 1800px;
+    height: 468px;
+    background-color:  rgb(114, 173, 114);
+    border-top: solid rgb(0, 0, 0) 1px;
+    margin-top: 20px;
+}
+
+.navbar-link:not(.is-arrowless)::after {
+    border-color: black;
+    margin-top: -0.375em;
+    right: 1.125em;
+}
+
+.navbar-item, .navbar-link {
+    color: black;
+    display: block;
+    line-height: 1.5;
+    padding: 0.5rem 0.75rem;
+    position: relative;
+}
+
+.navbar-link.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover  {
+    background-color: #fafafa;
+    color: #4baf7a;
+}
+
+
+
+
+
+
