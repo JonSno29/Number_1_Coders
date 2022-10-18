@@ -110,5 +110,5 @@ Use the "scout rule" to help others.
 Amanda: amanda_lopez34@yahoo.com
 Jon: snoverjon@gmail.com
 Kenny: huntken26@gmail.com
-Julian: 
+Julian: julianj9011@gmail.com
 
