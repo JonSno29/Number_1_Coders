@@ -105,7 +105,10 @@ Use the "scout rule" to help others.
 
 🎗 We each had back up repositories to minimize errors.
 
-## CONTACT:
+## CONTACT: Emails:
 
-Each member adds contact here
+Amanda: amanda_lopez34@yahoo.com
+Jon: snoverjon@gmail.com
+Kenny: huntken26@gmail.com
+Julian: 
 
