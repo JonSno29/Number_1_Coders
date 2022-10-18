@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>CODIO_TUBE</title>
+  <script src="http://code.jquery.com/jquery.min.js"></script>
   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/tab-1.png" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css">
   <script type="text/javascript" src="assets/JS/codioTube.js"></script>
@@ -69,7 +70,7 @@
               <img src="assets\images\header logo.png" width="50" height="50">
             </a>
           </div>
-          <div id="navbarBasicExample" class="navbar-menu">
+          <div id="navbar" class="navbar-menu">
             <div class="navbar-start">
               <a class="navbar-item" href="index.html">
                 HOME
@@ -93,6 +94,14 @@
       </div>
 
       <h1 class="title is-1 is-danger">PREPARATION VIDEOS</h1>
+        
+        <form id = "search-form">
+        <input type="text" id="query" >
+        <br>
+        <input type="submit" value="Submit">
+        </form> 
+        <div id = "search-results"></div>
+  
 
       <iframe class="frame" width="500" height="250" src="https://www.youtube.com/embed/c5SIG7Ie0dM" frameborder="0"
         allowfullscreen></iframe>
@@ -129,7 +138,47 @@
     </div>
   </div>
 
-  <script src="assets\JS\codiotube.js">
+  <script>
+  $(document).ready(function(){
+
+$(function(){
+  $('#search-form').submit(function(event){ // User clicks
+    event.preventDefault(); 
+    var searchTerm = $('#query').val(); 
+    getRequest(searchTerm); 
+  });
+});
+
+function getRequest(searchTerm){
+  var userQuery = searchTerm;
+  var params = {
+    part: 'snippet',
+    key: 'AIzaSyCl6s0wODpkBGoeP7rUICiHIUnipmblNSg',
+    q: userQuery,
+    maxResults: 4
+  };
+  url = 'https://youtube.googleapis.com/youtube/v3/search'
+
+  $.getJSON(url, params, function(data){
+    showResults(data.items);
+    });
+}
+function showResults(results){ //Shows Results
+  var html = ""; 
+  $.each(results, function(index,items){ 
+
+    html += '<a href=' + "https://www.youtube.com/watch?v=" + items.id.videoId + '>';
+    html += '<img src=' + items.snippet.thumbnails.default.url + '>'; 
+    html += '</a>';
+
+    console.log(items.id.videoId);
+  });
+  $('#search-results').html(html);
+}
+});
+
+  
+  
   </script>
 
 
