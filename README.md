@@ -2,11 +2,11 @@
 
 ## OVERVIEW
 
-In this project, our group created an Interactive Front-End Webpage 
+In this project, our group created an Interactive Front-End Webpage
 
-from the skills we've learned, in the first six weeks of our Coding 
+from the skills we've learned, in the first six weeks of our Coding
 
-Bootcamp. 
+Bootcamp.
 
 ## USER STORY
 
@@ -18,10 +18,9 @@ SO, I can get employed upon graduation.
 
 GIVEN I am a coding grad, when I enter my city into the search bar
 
-Then, a list of coding related job openings pops up alongside a map 
+Then, a list of coding related job openings pops up alongside a map
 
 of the area.
-
 
 ## LIVE LINK:
 
@@ -111,4 +110,3 @@ Amanda: amanda_lopez34@yahoo.com
 Jon: snoverjon@gmail.com
 Kenny: huntken26@gmail.com
 Julian: julianj9011@gmail.com
-

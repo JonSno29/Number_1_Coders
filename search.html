@@ -2,81 +2,112 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> CODIO CAREERS </title>
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/tab-1.png" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-    <link rel="stylesheet" href="assets\CSS\reset.css" />
-    <link rel="stylesheet" href="assets\CSS\search.css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> CODIO CAREERS </title>
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/tab-1.png" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="assets\CSS\reset.css" />
+  <link rel="stylesheet" href="assets\CSS\search.css" />
 </head>
 
-<body>
-   
-    <div class="header">
-        <nav class="navbar" role="navigation" aria-label="main navigation">
-            <div class="navbar-brand">
-            
+<header class="header">
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
 
-                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
-                    data-target="navbarBasicExample">
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                </a>
-            </div>
-            <img src="./assets/images/Untitled-1codio.jpg" alt="">
-
-            <div id="navbarBasicExample" class="navbar-menu">
-                <div class="navbar-start">
-                    <a class="navbar-item" href="index.html">
-                        Home
-                    </a>
-
-                    <a class="navbar-item">
-                        About Us
-                    </a>
-
-                    <div class="navbar-item has-dropdown is-hoverable">
-                        <a class="navbar-link">
-                            More
-                        </a>
-
-                        <div class="navbar-dropdown">
-                            <a class="navbar-item" href="search.html">
-                                Search Careers
-                            </a>
-                            <a class="navbar-item" href="codioTube.html">
-                                Search Videos
-                            </a>
-                            <hr class="navbar-divider">
-
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </nav>
-      
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
     </div>
-   
-    <div class="gcse-search"></div>
-    <script async src="https://cse.google.com/cse.js?cx=66f7a0310183d4210">
-    </script>
-    <div class="gcse-searchresults-only"></div>
-    <script type="text/javascript" src="assets\JS\script.js"></script>
-   
+    <img src="./assets/images/Untitled-1codio.jpg" alt="Codio Nav bar image" id="codio-logo">
 
-    <script>
-       
-    </script>
-    <footer>
-        <img class="codiologo2" src="./assets/images/Logo 2.png" alt="">
-        <p class="footer-text">© 2022 CODIO. ALL RIGHTS RESERVED.</p>
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" href="index.html">
+          Home
+        </a>
+
+        <a class="navbar-item" href="./about-us.html">
+          About Us
+        </a>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            More
+          </a>
+
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="search.html">
+              Search Careers
+            </a>
 
 
-      </footer>
+            <a class="navbar-item" href="codioTube.html">
+              Videos
+            </a>
+            <a class="navbar-item" href="resumes.html">
+              Resumes/Cover letters
+            </a>
+            <hr class="navbar-divider">
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- Modal -->
+    <div class="navbar-end">
+      <div id="modal1" class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-content">
+          <p class="image is-1by1">
+            <img src="assets/images/CODIOWELCOME.png" href="assets/images/CODIOWELCOME.png"
+              alt="CODIO logo, green and black in color with slogan '//a job search for coders'">
+          </p>
+        </div>
+        <button class="modal-close is-large" aria-label="close">
+        </button>
+      </div>
+      <button onclick="openModal();" class="button is-primary">
+        WELCOME
+      </button>
+    </div>
+  </nav>
+</header>
+
+<body>
+
+  <div class="gcse-search"></div>
+  <script async src="https://cse.google.com/cse.js?cx=32dd053034fab41a0">
+  </script>
+  <div class="gcse-searchresults-only"></div>
+  <section class="main-image">
+    <div class="hero is-fullheight has-background">
+      <img class="hero-background is-tranparent" src="assets\images\office.jpg">
+    </div>
+  </section>
+  <script type="text/javascript" src="assets\JS\script.js"></script>
+
+
+  <script>
+
+  </script>
 </body>
+<footer class="footer">
+  <div class="content has-text-centered">
+    <div class="has-background-success"></div>
+    <img id="univ-logo"
+      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAA8FBMVEX///96EhsAAAB2AAzu3+D/yC//yTT/yjv4+Pj/+u3/017/yCf/1Whra2vf39/7+/tNTU3n5+eEhIQbGxthYWHt7e1zAADFxcWtra2FJCy7jZB2AAd4DBa/v7/48fLk5OQvLy/V1dWWlpZtAACgoKD/zk3/4JUkJCQ9PT1ISEh4eHi2trZBQUF3AADVubvex8kdHR2sc3fHoKP/9d1/f3+ZmZmmpqZWVlZlZWUeFxnUtriYT1WGLDPo2NoRERG0gYWPP0WmaW6gXWLLqKv/6LX/2XqUSk84MzWKNTu6iY2pcHT/5ab/9+T/7sj/3If/7MPLH/n6AAAO3ElEQVR4nO2dDVvaShOGB8S6tU0CKSGgEEikBQKKUiAWRRHOUew55+3//zfvzG4SkghWLQXttc/Vaj43e2dmZza7EAGkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkXo9YNZcDMKpVbZ1F8t9G1Vhbmb8gw+2YADnFWSPhoFGl34qnrq3MVdIWiq7Ejql4tF6013hZNV3Hn9Wa/njlIj9fqsy8FGhu9VLBcuo+elBAaHo25PJDMDsOK3YqkPNM1VMcpQ6ON9DxBtiu7jLD9dSi4uZd1yATDc/JEQ3H0dvA9LyjK1SY6mYZwFDRwWzprJrFfa7O2i0DbK9tKHmnr4PW1xUTmOM4dVA9PYvlgmk+m7BUDlTK9ArBcuH6IWHbBg9r4GCF72zQ7vDiLoCLdTOxmqDeMVBs6BvQVqDNKufQNqoNG3Tuh+cV/N8G3AomI8JiC+uK2AC0oOOBWD5r5jVwGG7Hw8B0wSyCW8TdQ9XWvjHbBkV5AWFKiBP6y6kVhI7iwhAJm2ivoQv2EAmLmok3Pgs2EurnhsGg7aJjVRTyrrpikzeC2kQsxMN/Ve7samWA55sDJMwiYb3vsYqNls4OoK4BbrZVsL+ZmsG+4fXsFgO+UB08u+E+j3BQbVYCQqNWrePVXGWQRcI7Bx0KDAWtS4RAhCiWz5PFwPQYr2elWUdLEmFb7eQccHzCgZHXiXCg3plE6NU9uokNB9QanplrGIKwmNOdZxPu/JzQDAnB/Kb7hOD26WLopTYDMz/McpT6lRElROPwX2QEMLPawoZtyGPzCglZtaaQDaHY1JEQyXLoA/bd0OCmu/MJPUfpPDPwWNOJMGJ5MrVmtyWf8LYXPcjoYK0Yto+BBvVvAaGdrghCMA3bg74CuSFvojFCESw1KqE/CLZSO4R2Gt2+LwixbBNXGd4z/Q6IEN0UvaXoQrYiStHwwiY2eq/yPELQzoQRd77jvRn7PrvTjR9U8QZDx8YwR25pgNqoU2rpY9bOeW677rL6XdXIDtl5sa0wpmM80vQOJTzmeiKl2/1Ksc80pyMyPXPyhuFC1cuq6p2jGZzSRisbmH3xrHy7eG4MXdM1odpvt/GaeAdMplSAKd4zjdhN+Q2xjFRT32V3pix+lGHbeJGcij+YBoaq0lV4FqhWVdxK/w1Vy6nosYxW+A8IfvES8JxwlS/QKapBhRnok8AYXoBRsayKpeawbLsqjuXRV60y3OivPV3abdAOd27ZyXHQDo9nz7tPr1i9ECp1eD0J4mqqfJnZds3WpMwxh/KbIl8u85XC2bartiZ9F/nhOsyK2AR5YyyXuz8/+w2oy3308Ey7Dlpj6ngsAurOZNuVW4csHmbKh9bJbWjD1Jl2wA1b+BOCjY/Sg0VnBnOHxQR4eXWwYfPyTuk62G+dHaw8UuvF+g5wslMuT+jenUw3EMuEO5ZvYxG1XLKge/iTYMMuS9fT4/lYrGV25iuTsDW5jK2PCtOzydG1BmdHJ0+sJrNe9oBodbsiv5cPugnCTFekjfKsO15x0csLDWbHN6Ax6gHgYZiuaQU0i/IxbrP8y9xyei2o5ehoBtZF4QQyJ3iExY8S54gVPJP/t/gJFpZrzXqz5+V4X93jQz+6lI8jD4b4mGgdBD57eDx5hNCalKyTi/v5yLq5hvvbsTa9hsxNaTICuLk5u7zm1ToopyYZGE9L025ICF3s2I8uxjCazw80GN9c3nbBOphPDjRrcg/deRdmk9J3PO32/vZ+3LvprbjRPyNcpPrM7DBcSV0uCLE7vpKQgXaRsnqF0jRjXV7AuHB9ctRlt6XR9HgM88L04mhER85KpWsrkyodXIpmzQnHhe/Y9LtaaXIwAqtUwrsE10dnN0cHcHPcnc7hpPB9lprinShPu5n72b31y4SaFRE8iVDDB6851hNbk3U5BTgrTaYwPpzf3GLkmkzY+IiHGHY7F1gjEZs54cERBbcunBXQht0jilPWZA7WfAKZ1G2ZdlzclEqW2DU+eVlMihHGdz2FcDLuXhREPYFsiLzHXYIe9XoZmN8GhNbtpUVeiY5xIggPMrMd7BPSmd3etNDNFG4yXcYuUpkumg3uCxdUg7PRwQnC95Zf/2mEhUNfheME4f1RuGsFoXVZOCyksA31joiwdEFnTenmHE9K+FwyD22I5iiNte+Fy2PxuDIqHB4XJngSnmldTuapMZwdp/DYkzIGOdyeuaQfk9SkPIJfI8zcHwRKunl3sWvFFbTRbMZ9Z9zDc9mMzGPx+zTuzTAsjEaaNRPhwerhIdrJwUjEw8xsNutSmBzPLMj0eAw5OcBlPLMnSuBBdNTDWGu9LMRISUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJST1N7//5wvV+q7X4Kirx1+8oe/+D0NffUfiT9Zdfiy/rL/r93juurRPyWuzur79oTri3t7e7ZcJdrMNvI9zd//fr1+0CwnuswdcPv43w4/qLfZEk4cv0C4QaYyu/M8DYCz5rv1lCTVei6rcTMEbb9VrZvF5ZQmIPFK/jKYPwy/z2ufJQ59XkeZslZK10XJ3oF6oNPdzeGCbOtL1wn+czttPL9OBtBhsmzCYrVFvcc/NTjD0XOU/TYyeJt068EcJ0+MX/YpJ9UVdDSexzyYsrr5bQUX3VyWhXvp8KizQHtqqaOrdmMzCv5vJ9+bat2u08X6avrjPbL4ccWPGX7QcteAuExXCVW0G0OPWKu59fvypvdXn/sDqtNILvlldOF2cJEfTqF39slRBo1Q2X0u3FHm42/p4IULlBF82yWqMNkWb6mgn1oCGa3ILRI8mKDW5SJdm87HQc6bUTci6iqMWaEMegQ40kPECf2u/inUKvmFCj9Ejty1j4ZCg61AM/xuZiu3ijXbj0KyakyjeDwH+aeJsKJ2PCvF6iHC9sv6RXRzio+oGdp3EeIh1cyCZ6cNxQ9C6dROQMjw+d+tURXp1+Ip0SwakwqJuOpH5fRoO7okG5MfnGI0qep2FDfHWEUenCcG7M64S0Gvdo42pJR6USCzWvmjDd4q1vGSF7u4RuuyhUbwWZjsL/eeJY45S3UtaIdwW4KArVXi/hIpYyipMtEP2yZqJHaQp8LfsgHYo7snh/zismFHnQ9NN7whUp0l4x8bsT36U1Y0yvmZAnNt1vc/34sad+fK08pDfTsfi6FcJ3TyRUfAyeGmMDEMOQgkJNProLOtRnXaTPbRDSIOWTbUi1z6UTOZ/7bYsv8oenaM4fJDY8Trj77t3e+qdPviDhssmCJGE1HaQJbkQ3DI92c+GIjEyW6OvF4tLjhPu77z7891KQVfpKQ+k/luxIEOayYd3FGFXW5GZkxUY6UmuTPx33Re87R3E0fRXt5TxO+D9y0zUb8cve7rvdpZ7BCZVhXUjnHH7mVmuiB+DgdrF4HjrtUPQOlEF94I/YRD39J4T/fcDb/Xm9M2z75PrLTLhsJCodjE7kOvHt0dCaHFaLvy3vcUL4gtX58L9fZIqLCD8vnZR5SNhYdFeMfnR7/HHCjg60ZhPPWT8h/PFu7YR/k1/8vWxPgvCq6cQyhKk0xI6mk0ueWczy1pj+5LWTw2mPE77/jG1m958Xkaws8x9CXGpE24zKfvB245yJjbT9cEgQpanten1YWfLWUSp09ctIqTJ7aw+mf2OEXu9de7k+Yl3WP5OP8Wu5m9LkSz/bafWLMTekGZtI/C8qihLvp+F+niyNcArGHS7Mxip6ttnMO+Yy2+/9loz/7+6K2TVWrwWhxIlUh3owkbGYfjoxNEMd0Su6J2qkFZ8GL82uhFE4m5zMgk33vKv5SA3PF62QP0fYsdXoyIVGnbtPScLgoXkY3aRsd1Tf4H2xlu70+UI+uOHGHa0uHgI5YcSI/PEiJFQcEr9XbX9TOusM6wqN6CTHszZMSN7UEqayOxEmTOhX0acFMZcWpnXRowsJfePamFlO/dFGP6marYdTTxslpC6zF3gR2jPM9miPeifil4IwHC4U824hYSWyuQ3ap8izFUsOO8JGCWnks7EIgGY+WFaxksyJjCf686HtxXnLCHMNSvQ0TJB4do5rg4RmOj7gEjqlQ1agcBqEHiSsoV1bwogYSa68JYRGh2INEWYfq8sGCfXFdGhMNDBa4fFyuDiyScR8XaOgOVxGWOPWo/iiPPKnHzZHSPNl2WUp2RTTTsPFbrIhnPuza/hE/0kdLCE0xT1wuA/ni0u7erBJQkoVyVFfLkX0m6tX4YATJyQj1sXgfp8wkoR8hlFd9OavOvrSPs0GCWvLnwCoIXEyJdzPCWkg/NQgtlM1Rli3SRU+e88L0MMPcbSWvGZ9g4Sd5TYsBoO7mBWboj0JQpp8qpMJHYgRRuQ3v9wwfHx8+OcANkeonS9thzSm7Rg5lBomCEFIWA1PDHMsJWxG4hYz+414PyHQBmOpszSWUnP7xOfbaAhY5G6fMCfqXIc4YeOuhmp69UQAZUXq1Z8nu20bJLQTTiTsGf+0k7gFPqEYGKWR/Rhh0eBa8vk+G/36Lpk4NkhI/hiZys61yCUp/jSDT90FtyAg5LOjfHp/SSwNFHF8yqm1LRLyBNYMKkC1wU5qMR3pj2IsatDvgJBypBj6fYTQ64eMlDia2yTkE6E1wWNnRavzos8UQx83JGTnWcGzmhB9v1avLs5PTkNulpDxhzrPKQ7yVyIWUkZYJMlqQySUkJC/95q0mpAPEZ/mnXZ74G07lkLiQ4b02VInHZs5U0RuWBAGesSG8Y+sPsy4m/4UdD2si07mwd93kb30MD/k4zSN+Gl0J1a0Q63YXAAu6TRt/HPerOhmW9m+GNatKq4brTDTXXdIfwXJTVS14rp9Ptbmuu7Dx3h1qGRbraw7XPaIsY1Psif/Gts69OBPvIV6dZ/VX7sk4ctE33va+/jx4/6/6y/7Gfqxj3X4jd/s2t3d3fp317AOv4cQ
+      PlPZr4MQa7HeyUOhH/ufubZL+ENU4uN224qUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlNQbVeZPF+z86YLUny5J+PYlCd++JOHblyR8+5KEb19/PuH/Ac5Ft6jIMgRPAAAAAElFTkSuQmCC"><img
+      src="https://2u.com/static/ca12e19db2fddb4043175117c6d6d41b/09384/2u-logo.png"
+      id="univ-logo"><strong>CODIO</strong> by <a
+      href="https://github.com/JonSno29/Number_1_Coders">NUMBER_1_CODERS</a>. The source code is licensed
+    <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+    is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+
+  </div>
+</footer>
 
 </html>
