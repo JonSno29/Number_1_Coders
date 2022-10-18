@@ -16,8 +16,15 @@ body {
     text-align: center;
 }
 
+img {
+    /* size: 10px; */
+    height: auto;
+    max-width: 100%;
+    width: 71px;
+}
+
 .navbar {
-    background-color: rgb(114, 173, 114);
+    background-color: white;
 }
 
 .hero-text {
