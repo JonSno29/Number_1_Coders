@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CODIO_TUBE</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/tab-1.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css">
+    <script type="text/javascript" src="assets/JS/codioTube.js"></script>
+    <link rel="stylesheet" href="assets/CSS/codioTube.css">
+  </head>
+<body>
+  <div class="hero">
+  <div class="container">
+    <div class="header">
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="https://jonsno29.github.io/Number_1_Coders/">
+            <img src="assets\images\header logo.png" width="50" height="50">
+          </a>
+  </div>
+    <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item" href="index.html">
+              HOME
+            </a>
+  
+            <a class="navbar-item">
+              ABOUT US
+            </a>
+              
+                <a class="navbar-item" href="search.html">
+                  SEARCH CAREERS
+                </a>
+               
+               
+                <a class="navbar-item" href="codioTube.html">
+                 VIDEOS
+                </a>
+          </div>
+        </div>
+      </nav>
+      </div>
+        
+      <h1 class="title is-1 is-danger">PREPARATION VIDEOS</h1>
+
+<iframe
+ class="frame" width="500" height="250"
+  src="https://www.youtube.com/embed/c5SIG7Ie0dM"
+  frameborder="0"
+  allowfullscreen
+></iframe>
+<br>
+<br>
+<br>
+<iframe  
+class="frame" width="500" height="250"
+  src="https://www.youtube.com/embed/LBzZLzu2GKo"
+  frameborder="0"
+  allowfullscreen
+></iframe>
+  <br>
+  <br>
+  <br>
+<iframe  
+  class="frame" width="500" height="250"
+  src="https://www.youtube.com/embed/XH5OW46yO8I"
+  frameborder="0"
+  allowfullscreen
+></iframe>
+  <br>
+  <br>
+  <br>
+<iframe  
+class="frame" width="500" height="250"
+  src="https://www.youtube.com/embed/9hnJsNIBq1g"
+  frameborder="0"
+  allowfullscreen
+></iframe>
+<br>
+<br>
+<br>
+<iframe  
+class="frame" width="500" height="250"
+  src="https://www.youtube.com/embed/7S_tz1z_5bA"
+  frameborder="0"
+  allowfullscreen
+></iframe>
+ <br>
+ <br>
+ <br>
+ <iframe  
+class="frame" width="500" height="250"
+  src="https://www.youtube.com/embed/Zb4dPi7CANU"
+  frameborder="0"
+  allowfullscreen
+></iframe>
+<br>
+<br>
+<br>
+<iframe  
+class="frame" width="500" height="250"
+  src="https://www.youtube.com/embed/N7ZmPYaXoic"
+  frameborder="0"
+  allowfullscreen
+></iframe>
+    </div>
+  </div>
+
+<script>
+  fetch("https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCb3BgkDN-QVBc-HoW7XdPbA&maxResults=5&order=date&key=AIzaSyDzcGkZMyzZt6EBn8jlGBRjexwGkW_m-Zo")
+.then((result)=>{
+    return result.json()
+}).then((data)=>{
+    console.log(data)
+    let videos = data.items
+    let videoContainer = document.querySelector(".youtube-container")
+    for(video of videos){
+        videoContainer.innerHTML +=  `
+            <img src="${video.snippet.thumbnails.medium.url}"/>
+            `
+        
+    }
+})   
+    </script>
+  
+
+
+</body>
+</html>
