@@ -30,23 +30,23 @@ WebPage: https://jonsno29.github.io/Number_1_Coders/
 
 ## INSTALLATION, USAGE & MOCK-UP:
 
-Once on the deployed link scroll down to the cards.  
+1. Once on the deployed link scroll down to the cards.  
 
 ![Screenshot (20)](assets\images\Screenshot1.png)
 
-Scroll down on the landing page and pick the Search Careers box 
+2. Scroll down on the landing page and pick the Search Careers box 
 
 ![Screenshot (20)](assets\images\Screenshot2.png)
 
-Once On the Search page, type in your keyword and the results will show up
+3. Once On the Search page, type in your keyword and the results will show up
 
 ![Screenshot (20)](assets\images\Screenshot3.png)
 
-Choose one of the results and it takes you to the direct page.
+4. Choose one of the results and it takes you to the direct page.
 
 ![Screenshot (20)](assets\images\Screenshot4.png)
 
-Then go to the more tab in the nav and choose videos. Once there you can search specific videos and watch the embedded videos.
+5. Then go to the more tab in the nav and choose videos. Once there you can search specific videos and watch the embedded videos.
 
 ![Screenshot (20)](assets\images\Screenshot5.png)
 
