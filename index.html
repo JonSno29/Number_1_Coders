@@ -47,8 +47,10 @@
               <a class="navbar-item" href="search.html">
                 Search Careers
               </a>
-              <a class="navbar-item">
-                Search Videos
+             
+             
+              <a class="navbar-item" href="codioTube.html">
+               Videos
               </a>
             </div>
           </div>
@@ -57,8 +59,8 @@
         <div class="navbar-end">
           <div class="navbar-item">
             <div class="buttons">
-              <a class="button is-primary">
-                <strong>Sign up</strong>
+              <a class="button is-primary" href="">
+              <strong>Sign up</strong>
               </a>
               <a class="button is-light">
                 Log in
@@ -73,7 +75,7 @@
   <div class="hero-image">
     <div class="hero-text">
       <h1>WELCOME TO CODIO</h1>
-      <p>Find a career meant</p>
+      <p>Find a career </p>
     </div>
   </div>
   <!-- 
@@ -96,40 +98,42 @@
      <script async src="https://cse.google.com/cse.js?cx=66f7a0310183d4210">
     </script> -->
 
-  <!-- Modal -->
-  <div class="header">
-    <div id="modal1" class="modal">
+ <!-- Modal -->
+ <div class="navbar-end">
+  <div id="modal1" class="modal">
       <div class="modal-background"></div>
       <div class="modal-content">
-        <p class="image is-1by1">
-          <img src="/assets/images/NOWCODIO copy.png"
-            alt="CODIO logo, green and black in color with slogan '//a job search for coders'">
-        </p>
+       <p class="image is-1by1">
+      <img src="assets/images/CODIOWELCOME.png" href="assets/images/CODIOWELCOME.png"
+       alt="CODIO logo, green and black in color with slogan '//a job search for coders'">
+       </p>
       </div>
       <button class="modal-close is-large" aria-label="close">
       </button>
-    </div>
-
   </div>
+  <button onclick="openModal();" class="button is-primary">
+      WELCOME
+  </button>
+</div>
 
-  <script>
-    // JavaScript code to open and close the modal
-    // Function to open the modal
-    function openModal() {
+<script>
+  // JavaScript code to open and close the modal
+  // Function to open the modal
+  function openModal() {
       // Add is-active class on the modal
       document.getElementById("modal1")
-        .classList.add("is-active");
-    }
-    // Add event listeners to close the modal
-    // whenever user click OUTSIDE modal it closes
-    document.querySelectorAll('.modal-background, .modal-close,.modal-card-head .delete, .modal-card-foot .button'
-    ).forEach(($el) => {
+          .classList.add("is-active");
+  }
+  // Add event listeners to close the modal
+  // whenever user click OUTSIDE modal it closes
+  document.querySelectorAll('.modal-background, .modal-close,.modal-card-head .delete, .modal-card-foot .button'
+  ).forEach(($el) => {
       const $modal = $el.closest('.modal');
       $el.addEventListener('click', () => {
-        $modal.classList.remove("is-active");
+          $modal.classList.remove("is-active");
       });
-    });
-  </script>
+  });
+</script>
 
 </body>
 
