@@ -32,8 +32,8 @@ a :hover {
 .opening-container {
     position: absolute;
     text-align: center;
-    top: 42%;
-    right: 39%;
+    top: 25%;
+    right: 19%;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -91,13 +91,14 @@ p {
     color: white;
 }
 
-p.mission-p {
-
-
-    margin-top: 57px;
-    margin-left: 38px;
-    font-size: initial;
-    text-align-last: center;
+.about-p {
+    color: white;
+    line-height: 21px;
+    font-weight: bold;
+    text-shadow: 
+    0.08em 0 rgb(0, 0, 0);
+   
+    
 }
 
 .container {
@@ -245,6 +246,32 @@ img {
     color: black;
 }
 
+.navbar-link:not(.is-arrowless)::after {
+    border-color: black;
+    margin-top: -0.375em;
+    right: 1.125em;
+}
+
+.navbar-item,
+.navbar-link {
+    color: black;
+    display: block;
+    line-height: 1.5;
+    padding: 0.5rem 0.75rem;
+    position: relative;
+}
+
+.navbar-link.is-active,
+.navbar-link:focus,
+.navbar-link:focus-within,
+.navbar-link:hover,
+a.navbar-item.is-active,
+a.navbar-item:focus,
+a.navbar-item:focus-within,
+a.navbar-item:hover {
+    background-color: #fafafa;
+    color: #4baf7a;
+}
 
 
 
@@ -262,10 +289,13 @@ img {
 
 
 
-@media screen and (max-width: 992px) {
-    body {
-        max-width: max-content;
-        max-height: fit-content;
 
+@media (min-width:1600px) {
+    footer {
+        width: 2800px;
     }
+    .opening-container{
+        top:24%;
+        right:25%;
+        }
 }
