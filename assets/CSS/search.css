@@ -1,13 +1,9 @@
+/* Search page and google API is by Kenny. Julian contributed to the css too */
+
 body {
-    background-color:  rgb(114, 173, 114);
+    background-color: rgb(114, 173, 114);
 }
 
-
-
-.code-logo {
-    text-align: center;
-    background-color: rgb(0, 0, 0);
-}
 
 .search {
     text-align: center;
@@ -17,8 +13,14 @@ body {
     text-align: center;
 }
 
+#univ-logo {
+    /* size: 10px; */
+    height: auto;
+    max-width: 100%;
+    width: 71px;
+}
 
-img {
+#codio-logo {
     /* size: 10px; */
     height: auto;
     max-width: 100%;
@@ -36,9 +38,8 @@ img {
     display: flex;
     margin-left: 213px;
     margin-top: 55px;
-    boder: 10px;
+    border: 10px;
     /* border: solid; */
-    border-block: -508px;
     width: 40%;
     flex-direction: column;
     align-content: center;
@@ -55,29 +56,7 @@ img {
     color: rgba(0, 0, 0, .7);
 }
 
-.codiologo2 {
-    position: absolute;
-    width: 140px;
-    height: 140px;
-    margin-top: 256px;
-    margin-left: 135px;
-    border-radius: 5.0rem;
-}
 
-.footer-text {
-    position: absolute;
-    margin-left: 71px;
-    margin-top: 415px;
-    color: white;
-}
-
-footer {
-    width: 1800px;
-    height: 468px;
-    background-color:  rgb(114, 173, 114);
-    border-top: solid rgb(0, 0, 0) 1px;
-    margin-top: 20px;
-}
 
 .navbar-link:not(.is-arrowless)::after {
     border-color: black;
@@ -85,7 +64,8 @@ footer {
     right: 1.125em;
 }
 
-.navbar-item, .navbar-link {
+.navbar-item,
+.navbar-link {
     color: black;
     display: block;
     line-height: 1.5;
@@ -93,13 +73,18 @@ footer {
     position: relative;
 }
 
-.navbar-link.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover  {
+.navbar-link.is-active,
+.navbar-link:focus,
+.navbar-link:focus-within,
+.navbar-link:hover,
+a.navbar-item.is-active,
+a.navbar-item:focus,
+a.navbar-item:focus-within,
+a.navbar-item:hover {
     background-color: #fafafa;
     color: #4baf7a;
 }
 
-
-
-
-
-
+.footer {
+    background-color: #72ad72;
+}
