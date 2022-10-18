@@ -245,7 +245,32 @@ img {
     color: black;
 }
 
+.navbar-link:not(.is-arrowless)::after {
+    border-color: black;
+    margin-top: -0.375em;
+    right: 1.125em;
+}
 
+.navbar-item,
+.navbar-link {
+    color: black;
+    display: block;
+    line-height: 1.5;
+    padding: 0.5rem 0.75rem;
+    position: relative;
+}
+
+.navbar-link.is-active,
+.navbar-link:focus,
+.navbar-link:focus-within,
+.navbar-link:hover,
+a.navbar-item.is-active,
+a.navbar-item:focus,
+a.navbar-item:focus-within,
+a.navbar-item:hover {
+    background-color: #fafafa;
+    color: #4baf7a;
+}
 
 
 
