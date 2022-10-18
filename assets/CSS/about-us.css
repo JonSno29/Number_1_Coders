@@ -1,12 +1,18 @@
+/* About us page is by Julian */
+
 .img-opening {
-  
+
     background-size: cover;
     background-position: center;
-   background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-position: center;
     size-adjust: inherit;
     width: 2228px;
-    height: 776px;
+    height: 500px;
+}
+
+.footer {
+    background-color: #72ad72;
 }
 
 i.fa-solid.fa-arrow-down {
@@ -14,11 +20,13 @@ i.fa-solid.fa-arrow-down {
     position: absolute;
     margin-top: 693px;
 }
+
 i {
- color:  rgb(114, 173, 114);
+    color: rgb(114, 173, 114);
 }
+
 a :hover {
-color: whitesmoke;
+    color: whitesmoke;
 }
 
 .opening-container {
@@ -34,11 +42,11 @@ color: whitesmoke;
 
 }
 
-h1  {
+h1 {
     font-size: -webkit-xxx-large;
     color: white;
-   margin-bottom: 15px;
-   
+    margin-bottom: 15px;
+
 }
 
 p {
@@ -46,7 +54,9 @@ p {
     color: #48c78e;
     text-align: center;
 }
-.team-text ,.mission-text {
+
+.team-text,
+.mission-text {
     /* margin-bottom: 237px; */
     display: flex;
     color: rgb(114, 173, 114);
@@ -70,10 +80,10 @@ p {
     height: 224px;
     position: relative;
     right: -132px
-    
-}    
+}
 
-.mission-container {padding: 50px;
+.mission-container {
+    padding: 50px;
 
 }
 
@@ -82,33 +92,31 @@ p {
 }
 
 p.mission-p {
-   
-    margin-bottom: -43px;
+
+
     margin-top: 57px;
     margin-left: 38px;
     font-size: initial;
     text-align-last: center;
 }
 
-.container
-{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-wrap: wrap;
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 
-.container .card
-{
+.container .card {
     width: 300px;
     height: 400px;
     padding: 60px 30px;
     margin: 20px;
     background: rgb(0, 0, 0);
     box-shadow: 0.6em 0.6em 1.2em white,
-                -0.5em -0.5em 1em #ffffff;
-                border-radius:20px ;    
+        -0.5em -0.5em 1em #ffffff;
+    border-radius: 20px;
 
 }
 
@@ -123,8 +131,7 @@ p.mission-p {
 
 }
 
-.container .card .content .imgBx
-{
+.container .card .content .imgBx {
 
     width: 180px;
     height: 180px;
@@ -134,8 +141,7 @@ p.mission-p {
     overflow: hidden;
 }
 
-.container .card .content .imgBx .profile-pic 
-{
+.container .card .content .imgBx .profile-pic {
     position: absolute;
     top: 0;
     left: 0;
@@ -147,10 +153,9 @@ p.mission-p {
 
 }
 
-.container .card .content .contentBx h4
-{
+.container .card .content .contentBx h4 {
 
-    color:  rgb(125, 212, 125);
+    color: rgb(125, 212, 125);
     font-size: 1.7rem;
     font-weight: bold;
     text-align: center;
@@ -160,8 +165,7 @@ p.mission-p {
 
 }
 
-.container .card .content .contentBx h5
-{
+.container .card .content .contentBx h5 {
     color: #48c78e;
     font-size: 1.2rem;
     font-weight: bold;
@@ -173,8 +177,7 @@ p.mission-p {
 }
 
 
-.container .card .content .socials
-{
+.container .card .content .socials {
     margin-top: 3px;
 
 
@@ -182,8 +185,7 @@ p.mission-p {
 
 }
 
-.container .card .content .socials a
-{
+.container .card .content .socials a {
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 30px;
@@ -194,7 +196,7 @@ p.mission-p {
 footer {
     width: 1800px;
     height: 290px;
-    background-color:  rgb(114, 173, 114);
+    background-color: rgb(114, 173, 114);
     border-top: solid rgb(0, 0, 0) 1px;
     margin-top: 20px;
 }
@@ -261,9 +263,9 @@ img {
 
 
 @media screen and (max-width: 992px) {
-    body { max-width: max-content;
+    body {
+        max-width: max-content;
         max-height: fit-content;
-     
+
     }
-  }
-  
+}
