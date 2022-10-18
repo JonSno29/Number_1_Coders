@@ -91,13 +91,14 @@ p {
     color: white;
 }
 
-p.mission-p {
-
-
-    margin-top: 57px;
-    margin-left: 38px;
-    font-size: initial;
-    text-align-last: center;
+.about-p {
+    color: white;
+    line-height: 21px;
+    font-weight: bold;
+    text-shadow: 
+    0.08em 0 rgb(0, 0, 0);
+   
+    
 }
 
 .container {
@@ -295,6 +296,6 @@ a.navbar-item:hover {
     }
     .opening-container{
         top:24%;
-        right:27%;
+        right:25%;
         }
 }
