@@ -50,16 +50,17 @@ WebPage: https://jonsno29.github.io/Number_1_Coders/
 
 ![Screenshot (20)](assets/images/Screenshot5.png)
 
+🎗 Google search API
 
-🎗 Uses a GIF to show features.
+🎗 YouTube iFrame Embebed API
 
-🎗 Powered by jQuery.
+🎗 Powered by jQuery
 
-🎗 Visually appealing.
+🎗 Visually appealing
 
-🎗 Includes local time.
+🎗 Uses a GIF to show features
 
-🎗 These features enhance user experience.
+🎗 These features enhance user experience
 
 🎗 JavaScript
 
@@ -82,6 +83,12 @@ WebPage: https://jonsno29.github.io/Number_1_Coders/
 🎗 Screencastify for mock-up GIF
 
 ## CREDITS:
+
+developers.google.com
+
+Youtube.com for Youtube iFrame Embeded API
+
+Bulma.io
 
 ## LICENSE:
 
@@ -127,7 +134,10 @@ Use the "scout rule" to help others.
 
 ## CONTACT: Emails:
 
-Amanda: amanda_lopez34@yahoo.com
-Jon: snoverjon@gmail.com
-Kenny: huntken26@gmail.com
-Julian: julianj9011@gmail.com
+🎗 Amanda: amanda_lopez34@yahoo.com
+
+🎗 Jon: snoverjon@gmail.com
+
+🎗 Kenny: huntken26@gmail.com
+
+🎗 Julian: julianj9011@gmail.com
